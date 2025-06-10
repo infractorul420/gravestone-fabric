@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "gravestone",
+  "version": "1.0.0",
+  "name": "Gravestone Fabric",
+  "description": "Creates a gravestone on player death",
+  "authors": ["infractorul420"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.infractorul420.gravestone.GravestoneMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric": "*",
+    "minecraft": "1.21.5"
+  }
+}
